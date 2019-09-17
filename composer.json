@@ -1,0 +1,22 @@
+{
+    "name": "kuno1/membership",
+    "description": "A WordPress plugin for membership",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "fumikito",
+            "email": "guy@hametuha.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "stripe/stripe-php": "^7.1",
+        "hametuha/pattern": "^0.8.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kunoichi\\Membership": "src"
+        }
+    }
+}
